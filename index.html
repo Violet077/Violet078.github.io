@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Style UI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div id="userDropdown" class="dropdown">
+            <div class="dropdown-content">
+                <a href="#" data-username="IU">@dlwlrma</a>
+				<a href="#" data-username="Millet">@millet</a>
+                <a href="#" id="addUser">+ Add User</a>
+            </div>
+        </div>
+        <div class="menu">&#9776;</div>
+        <div class="sort">&#9660;</div>
+    </header>
+    <main></main>
+    <div class="tweet-button">+</div>
+    <footer>
+        <div>🏠 Home</div>
+        <div>🔍 Search</div>
+        <div>🔔 Notifikasi</div>
+        <div>💬 Message</div>
+    </footer>
+    
+    <div id="tweetModal" class="modal">
+        <textarea id="tweetText" placeholder="What's on your mind?"></textarea>
+        <input type="file" id="tweetImage" accept="image/*">
+        <button id="sendTweet">Tweet</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
